@@ -1,0 +1,7 @@
+
+--Locals/Bypasses
+print("Locals Loading!")
+local WorkspacePlayers = game:GetService("Workspace").Game.Players;
+local Players = game:GetService('Players');
+local localplayer = Players.LocalPlayer;
+print("Locals Loaded!")
